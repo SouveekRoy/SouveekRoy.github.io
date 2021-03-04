@@ -21,7 +21,7 @@ section{
     background: #111;
     background:url(images/proimg11.jpg);
     background-size: cover;
-    background-position: right center;
+    background-position: center right;
 }
 .banner h2{
     font-size: 2.5em;
