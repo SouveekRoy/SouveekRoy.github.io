@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <title>Hey There</title>
+    <script src="ext.js" language="javascript"></script>
+    <script src="https://kit.fontawesome.com/46fb221d81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+</head>
+<body>
+  <!--creating menu tabs-->
+  <header>
+    <a href="#" class="logo">Portfolio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Skills</a></li>
+        <li><a href="#project" onclick="toggleMenu();">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+       
+    </ul>
+</header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello,  I'm <br> <span>Souveek Roy</span></h2>
+            <h3>I'm an all time Learner</h3>
+            <a href="#about" class="btn">About Me</a>
+        
+            
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading"><p>Get to know me</p>
+        <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/proimg2.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am I</h3>
+                <h2>I'm <b>Souveek Roy</b>, a Machine Learning Enthusiast and an all time learner</h2>
+                <p>Speaking about me I am an Engineering Undergrad from Rajasthan Technical University and I am a great learner who believes in practical experience rather than
+                    theoretical. I have an Urge to learn new things and ready to complete that's undone.</p><br>
+                <p>I have an complete obsession for Python and its wonders which thus made me work on various domains related to Python.
+                     I have experience in AI and  Machine Learning , Data Analysis and Visualisation.
+                    My hobbbies mostly include cooking , sketching and riding bikes.
+                You guys can also visit my <a style="text-decoration:none" href="https://www.instagram.com/404_notalent/" target="_blank"><b>" Digital Art "</b></a> page to have a glimpse of my artwork.
+            </p>
+                <div class="heading bottom">
+                    <a href="images/Souveek's Resume .pdf" target="_blank" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name: </b>Souveek Roy <br>
+                        <b>Age: </b>22
+                    </div>
+                    <div class="bt">
+                        <b>Email: </b>souveekroy14@gmail.com<br>
+                        <b>Location: </b>India
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Creating the skills layout -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Skills</h2>
+            <p>Skills and Domains I have worked on</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa devicon-cplusplus-plain fa-4x"></i>
+                <h3>C++</h3>
+                <p>The most needed programming language that everybody needs to learn, I have hands on experience with C++</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fab fa-python fa-4x"></i>
+                <h3>Python</h3>
+                 <p>Obsessed with python I have worked on many domains related to python and development through python</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fas fa-brain fa-4x"></i>
+                <h3>Machine Learning</h3>
+                <p>ML is something where a machine behaves as a human as it learns new things,I have made quite a few projects on this domain</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fas fa-chart-bar fa-4x"></i>
+                <h3>Data Analysis <br> and Visualisation</h3>
+                <p>Data is everywhere, and working with data is another level of fun, you can get insights and can predicts many things through this data</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fas fa-database fa-4x"></i>
+                <h3>MySQL</h3>
+                <p>The most needed language to work on with data storage and its manipulation, I have some experience with PostgreSQL as well</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa devicon-csharp-plain fa-4x"></i>
+                <h3>C#.NET</h3>
+                <p>It was quite fun working with .NET , made some apllications with it</p>
+            </div>
+            
+        </div>
+    </section>
+    <!--Creating Project layout in HTML-->
+    <section class="project" id="project">
+        <div class="heading">
+        <h2>My Projects</h2>
+        <p>Showcasing some of my <b>Projects</b></p>
+    </div>
+    <div class="content">
+        <div class="projectBx">
+            <a href="https://github.com/SouveekRoy/MLProject-HindiHandwritingRecognition" target="_blank">
+                <img src="images/OCR.jpg" alt="">
+                <p>Hindi Handwriting Recognition(OCR)</p>
+            </a>
+        </div>
+        <div class="projectBx">
+            <a href="https://github.com/SouveekRoy/Emoji-Recognition-Through-Hand-Gestures" target="_blank">
+                <img src="images/image_recog.jpg" alt="">
+                <p>Emojinator-Emoji Recognition through hand gestures(Image Recognition)</p>
+            </a>
+        </div>
+        <div class="projectBx">
+            <a href="https://github.com/SouveekRoy/RailwayReservation" target="_blank">
+                <img src="images/onlinerailwayreservation-1200x675.jpg" alt="">
+                <p>Railway Reservation application using C#.NET</p>
+            </a>
+        </div>
+        <div class="projectBx">
+            <a href="https://github.com/SouveekRoy/CustomTerminal" target="_blank">
+                <img src="images/VR-1200x675.jpg" alt="">
+                <p>Within 360- A Virtual Reality Project </p>
+            </a>
+        </div>
+        <div class="heading">
+            <a href="https://github.com/SouveekRoy" target="_blank" class="btn" style="color:#fff;">View All My Projects</a>
+        </div>
+    </div>
+    </section>
+    <!--Creating Contact in HTML-->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <Address>BK BIRLA INSTITUTE OF ENGINEERING <br> AND TECHNOLOGY, PILANI,
+                                Ceeri Rd, <br> Dist-Jhunjhunu, Rajasthan 333031, India
+                            </Address>
+
+                        </div>
+                    </div>
+                        <div class="box">
+                            <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Phone no :</h3>
+                                <p>+91-9668306789</p>
+    
+                            </div>
+                            </div>
+                            <div class="box">
+                                <div class="icon">
+                                <i class="fas fa-envelope"></i> 
+                                </div>
+                                <div class="text">
+                                    <h3>Email Address :</h3>
+                                    <p>souveekroy14@gmail.com</p>
+                                </div>
+                                
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.instagram.com/souveek.roy/" target="_blank">
+                            <i class="fab fa-instagram-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/souveekroy14" target="_blank">
+                                <i class="fab fa-twitter-square"></i>  
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/souveek-roy-9a07a4147/" target="_blank">
+                                <i class="fab fa-linkedin"></i>  
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/SouveekRoy" target="_blank">
+                                <i class="fab fa-github-square"></i>   
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="Email" placeholder="Email Id">
+                    <textarea name="" id="" rows="7" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" name="" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Creating Footer part-->
+    <footer class="copyright">
+        <p>&copy; 2021 , Souveek Roy, Allrights reserved</p>
+    </footer>
+</body>
+</html>
